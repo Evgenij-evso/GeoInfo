@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+}
+.russia_map_container{
+    scale: 0.9;
+    position: absolute; 
+    width: 1761px; 
+    height: 1013px;
+
+    right: 0;
+    left: auto;
+    overflow: hidden;
+}
+.russia_map{
+    position: absolute;
+    height: 1013px;
+    width: 1761px;
+
+
+}
+.russia_map_svg{
+    position: absolute;
+    color: rgba(0, 0, 0, 0);
+}
+.container_trey{
+    width: 25em;
+    height: 100vh;
+    position: fixed;
+
+    background-color: rgba(255, 255, 255, 0.568);	
+    backdrop-filter: blur(5px);
+
+    padding: 2em 1em;
+}
+.search_case{
+    width: 100%;
+    height: 2.2em;
+}
+#search{
+    height: 100%;
+    width: 100%;
+    font-size: 1em;
+    padding: 0 1em;
+
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 5px;
+}
+.gl-container_cities::-webkit-scrollbar{
+    width: 10px;
+
+}
+.gl-container_cities{
+    width: 100%;
+    height: auto;
+    max-height: 90%;
+
+    padding: 2em 0;
+    margin-top: 1em;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item_cities_container{
+
+    width: 100%;
+    min-height: 3em;
+    border: 2px black solid;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0.5em 0;
+    backdrop-filter: blur(1px);
+    padding: 0 0.7em;
+    cursor: pointer;
+}
+.color_border{
+    height: 2em;
+    width: 1em;
+    border-radius: 2px;
+
+    margin-left: auto;
+    margin-right: 0;
+}
+.red-border{
+    background-color: red;
+}
+.yellow-border{
+    background-color: rgb(255, 238, 142);
+}
+.green-border{
+    background-color: rgb(0, 151, 0);
+}
+.blue-border{
+    background-color: rgb(63, 131, 255);
+}
+.cities_name{
+    font-size: 1.1em;
+}
+.container_info_gl{
+    width: auto;
+    height: 80vh;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    background-color: rgba(255, 255, 255, 0.568);	
+    backdrop-filter: blur(20px);
+
+    padding: 2em 2em;
+
+    border-radius: 10px;
+    border: 1px solid black;
+
+    display: none;
+    flex-direction: column;
+}
+.bold_info{
+    font-weight: bold;
+    font-size: 1.4em;
+}
+.container_info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+}
+.get_info{
+    font-size: larger;
+    margin-top: 0.7em;
+}
+.name_city{
+    font-weight: bold;
+    font-size: 1.6em;
+    text-align: center;
+    margin-top: 0;
+}
+.container_name_info{
+    width: 100%;
+    margin-top: 1em;
+}
