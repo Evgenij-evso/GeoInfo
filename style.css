@@ -26,6 +26,8 @@
 .russia_map_svg{
     position: absolute;
     color: rgba(0, 0, 0, 0);
+
+    opacity: 0;
 }
 .container_trey{
     width: 25em;
@@ -148,4 +150,9 @@
 .container_name_info{
     width: 100%;
     margin-top: 1em;
+}
+#close_display_info{
+    margin-left: auto;
+    margin-right: 0;
+    cursor: pointer;
 }

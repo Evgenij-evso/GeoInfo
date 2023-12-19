@@ -1,6 +1,7 @@
 let container_info_gl = document.querySelector('.container_info_gl')
 let name_city = document.getElementById('name_city')
 let info_city = document.getElementById('info_city')
+let close_display_info = document.getElementById('close_display_info')
 
 let Chukotka = document.getElementById('Chukotka')
 let Yakutia = document.getElementById('Yakutia')
@@ -20,4 +21,10 @@ function getInfoCity(nameCity){
         }
     }
 }
-Krosnoyarsk.addEventListener('click',getInfoCity('Krosnoyarsk'))
+close_display_info.addEventListener('click',function(){
+    container_info_gl.style.display = 'none'
+})
+
+Krosnoyarsk.addEventListener('click',function(){
+    getInfoCity('Krosnoyarsk')
+})
