@@ -3,14 +3,14 @@ let container_trey = document.querySelector('.container_trey')
 let name_city = document.getElementById('name_city')
 let info_city = document.getElementById('info_city')
 let close_display_info = document.getElementById('close_display_info')
-let close_display_search = document.getElementById('close_display_search')
+
 
 let Chukotka = document.getElementById('Chukotka')
 let Yakutia = document.getElementById('Yakutia')
 let Krosnoyarsk = document.querySelectorAll('.KROSNAYARSK')
 
 function SizeDisplay(listCity){
-    container_info_gl.style.display = 'flex'
+    container_info_gl.classList.add('open')
     name_city.innerHTML = listCity.name
     info_city.innerHTML = listCity.info
 }
@@ -23,14 +23,19 @@ function getInfoCity(nameCity){
         }
     }
 }
-close_display_search.addEventListener('click',function(){
-    container_trey.style.display = 'none'
+
+$('#close_display_search').click(function(){
+    container_trey.classList.add('close');
 })
 $('#open_display_search').click(function(){
-    container_trey.style.display = 'flex'
+    // container_trey.style.display = 'flex'
+    container_trey.classList.remove('close')
+    container_trey.classList.add('open');
+    // $(container_trey).on('transitionend',function(){
+    // })
 })
-close_display_info.addEventListener('click',function(){
-    container_info_gl.style.display = 'none'
+$(close_display_info).click(function(){
+    container_info_gl.classList.remove('open')
 })
 
 // Krosnayarsk_______________________________________________
