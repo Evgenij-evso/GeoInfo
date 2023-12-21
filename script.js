@@ -7,7 +7,7 @@ let close_display_info = document.getElementById('close_display_info')
 
 let Chukotka = document.getElementById('Chukotka')
 let Yakutia = document.getElementById('Yakutia')
-let Krosnoyarsk = document.querySelectorAll('.KROSNAYARSK')
+let Krosnoyarsk = document.querySelectorAll('.KRASNOYARSK')
 
 function SizeDisplay(listCity){
     container_info_gl.classList.add('open')

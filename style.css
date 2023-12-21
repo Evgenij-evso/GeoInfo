@@ -69,11 +69,19 @@ body{
     width: 100%;
     font-size: 1em;
     padding: 0 1em;
-
-    border: 1px rgb(0, 0, 0) solid;
+    border: 0px;
+    border-bottom: 2px rgb(0, 25, 49) solid;
     background-color: #ffffff00;
-    border-radius: 5px;
+
 }
+#search:focus-visible{
+    border: 0px;
+    border-bottom: 2px rgb(0, 25, 49) solid;
+    border-left: 2px rgb(0, 25, 49) solid;
+    border-end-start-radius: 5px;
+    outline: none;
+}
+
 .gl-container_cities::-webkit-scrollbar{
     width: 10px;
 
@@ -93,20 +101,20 @@ body{
     align-items: center;
 }
 .item_cities_container{
-
     width: 100%;
     min-height: 3em;
     border: 2px solid #313c4e;
     border-radius: 5px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 
     margin: 0.5em 0;
     backdrop-filter: blur(1px);
     padding: 0 0.7em;
     cursor: pointer;
 }
+
 .color_border{
     height: 2em;
     width: 1em;
