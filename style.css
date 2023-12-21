@@ -8,6 +8,7 @@
 }
 body{
     background-color: #fffffc;
+    overflow: hidden;
 }
 .russia_map_container{
     scale: 0.9;
@@ -23,8 +24,6 @@ body{
     position: absolute;
     height: 1013px;
     width: 1761px;
-
-
 }
 .russia_map_svg{
     position: absolute;
@@ -45,8 +44,6 @@ body{
     padding: 2em 1em;
     display: flex;
     flex-direction: column;
-
-    
 }
 .container_trey.open{
     
@@ -157,6 +154,7 @@ body{
     border-radius: 10px;
 
     visibility: hidden;
+    z-index: 10000;
     opacity: 0;
     scale: 0.7;
     transition-property: all;
@@ -213,4 +211,47 @@ body{
     position: absolute;
     left: 1em;
     top: 1.5em;
+}
+.mobile-version{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    background-color: #fffffc;
+
+    z-index: 1000000000000000;
+}
+.penis_svg{
+    height: 75%;
+}
+@media(max-width: 1648px){
+    .russia_map_container{
+        scale: 0.7;
+        top: 50%;
+        left: 50%;
+        transform: translate(-65%,-75%);
+    }
+}
+@media(max-width: 768px){
+    .mobile-version{
+        visibility: visible;
+    }
+    .russia_map_container{
+        display: none;
+    }
+    .container_info_gl{
+        display: none;
+    }
+    .container_trey{
+        display: none;
+    }
+}
+@media(max-width: 500px){
+    .penis_svg{
+        height: 50%;
+    }
 }
