@@ -72,10 +72,9 @@ body{
 
 }
 #search:focus-visible{
-    border: 0px;
-    border-bottom: 2px rgb(0, 25, 49) solid;
-    border-left: 2px rgb(0, 25, 49) solid;
-    border-end-start-radius: 5px;
+    border-bottom: 0px;
+    border: 2px solid black;
+    border-radius: 5px;
     outline: none;
 }
 
