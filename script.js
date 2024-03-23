@@ -17,6 +17,13 @@ let Tayava = document.querySelectorAll('.TAYVA')
 let Altay = document.querySelectorAll('.ALTAY')
 let Tomskay_oblast = document.querySelectorAll('.TOMSKAY_OBLAST')
 let Altaiskii_kray62 = document.querySelectorAll('.ALTAISKII_KRAY62')
+let Arhangelskay_oblast1 = document.querySelectorAll('.ARHANGELSKAY_OBLAST1')
+let Astrahanskay_oblast2 = document.querySelectorAll('.ASTRAHANSKAY_OBLAST2')
+let Belgorodskay_oblast3 = document.querySelectorAll('.BELGORODSKAY_OBLAST3')
+let Branskay_oblast4 = document.querySelectorAll('.BRANSKAY_OBLAST4')
+let Vladimirskay5 = document.querySelectorAll('.VLADIMIRSKAY5')
+let Volgogradsay_oblast6 = document.querySelectorAll('.VOLGOGRADSAY_OBLAST6')
+let Vologodskay_oblast7 = document.querySelectorAll('.VOLOGODSKAY_OBLAST7')
 
 function SizeDisplay(listCity){
     console.log(listCity)
@@ -117,5 +124,47 @@ for(let i = 0; i < Tomskay_oblast.length; i++){
 for(let i = 0; i < Altaiskii_kray62.length; i++){
     $(Altaiskii_kray62[i]).click(function(){
         getInfoCity('Altaiskii_kray62')
+    })
+}
+// Arhangelskay_oblast1 _______________________________________________
+for(let i = 0; i < Arhangelskay_oblast1.length; i++){
+    $(Arhangelskay_oblast1[i]).click(function(){
+        getInfoCity('Arhangelskay_oblast1')
+    })
+}
+// Astrahanskay_oblast2 _______________________________________________
+for(let i = 0; i < Astrahanskay_oblast2.length; i++){
+    $(Astrahanskay_oblast2[i]).click(function(){
+        getInfoCity('Astrahanskay_oblast2')
+    })
+}
+// Belgorodskay_oblast3 _______________________________________________
+for(let i = 0; i < Belgorodskay_oblast3.length; i++){
+    $(Belgorodskay_oblast3[i]).click(function(){
+        getInfoCity('Belgorodskay_oblast3')
+    })
+}
+// Branskay_oblast4 _______________________________________________
+for(let i = 0; i < Branskay_oblast4.length; i++){
+    $(Branskay_oblast4[i]).click(function(){
+        getInfoCity('Branskay_oblast4')
+    })
+}
+// Vladimirskay5 _______________________________________________
+for(let i = 0; i < Vladimirskay5.length; i++){
+    $(Vladimirskay5[i]).click(function(){
+        getInfoCity('Vladimirskay5')
+    })
+}
+// Volgogradsay_oblast6 _______________________________________________
+for(let i = 0; i < Volgogradsay_oblast6.length; i++){
+    $(Volgogradsay_oblast6[i]).click(function(){
+        getInfoCity('Volgogradsay_oblast6')
+    })
+}
+// Vologodskay_oblast7 _______________________________________________
+for(let i = 0; i < Vologodskay_oblast7.length; i++){
+    $(Vologodskay_oblast7[i]).click(function(){
+        getInfoCity('Vologodskay_oblast7')
     })
 }
