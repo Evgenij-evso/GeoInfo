@@ -25,6 +25,30 @@ let Vladimirskay5 = document.querySelectorAll('.VLADIMIRSKAY5')
 let Volgogradsay_oblast6 = document.querySelectorAll('.VOLGOGRADSAY_OBLAST6')
 let Vologodskay_oblast7 = document.querySelectorAll('.VOLOGODSKAY_OBLAST7')
 
+let Voronechskay_oblast8 = document.querySelectorAll('.VORONECHSKAY_OBLAST8')
+let Ivanovskay_oblast9 = document.querySelectorAll('.IVANOVSKAY_OBLAST9')
+let Kaliningradskay_oblast10 = document.querySelectorAll('.KALININGRADSKAY_OBLAST10')
+let Kalurchskay11 = document.querySelectorAll('.KALURCHSKAY11')
+let Kemerovskay_oblast12 = document.querySelectorAll('.KEMEROVSKAY_OBLAST12')
+let Kurganskay_oblast13 = document.querySelectorAll('.KURGANSKAY_OBLAST13')
+let kostromskay_oblast14 = document.querySelectorAll('.KOSTROMSKAY_OBLAST14')
+let Kurganskay_oblast15 = document.querySelectorAll('.KURGANSKAY_OBLAST15')
+let Kyrskay_oblast16 = document.querySelectorAll('.KYRSKAY_OBLAST16')
+let Leningradskay_oblast17 = document.querySelectorAll('.LENINGRADSKAY_OBLAST17')
+let Lipezkay_oblast18 = document.querySelectorAll('.LIPEZKAY_OBLAST18')
+let Magadanskay_oblast19 = document.querySelectorAll('.MAGADANSKAY_OBLAST19')
+let Moskovskay_oblast20 = document.querySelectorAll('.MOSKOVSKAY_OBLAST20')
+let Murmanskay_oblast21 = document.querySelectorAll('.MURMANSKAY_OBLAST21')
+let Nichegorodskay_oblast22 = document.querySelectorAll('.NICHEGORODSKAY_OBLAST22')
+let Novgorodskay_oblast23 = document.querySelectorAll('.NOVGORODSKAY_OBLAST23')
+let Omskay_oblast24 = document.querySelectorAll('.OMSKAY_OBLAST24')
+let Novosibirskay_oblast25 = document.querySelectorAll('.NOVOSIBIRSKAY_OBLAST25')
+let Orenburgskay_oblast26 = document.querySelectorAll('.ORENBURGSKAY_OBLAST26')
+let Orlovskay_oblast27 = document.querySelectorAll('.ORLOVSKAY_OBLAST27')
+let Penzenskay_oblast28 = document.querySelectorAll('.PENZENSKAY_OBLAST28')
+let Pskovskay_oblast29 = document.querySelectorAll('.PSKOVSKAY_OBLAST29')
+let Rostovskay_oblast30 = document.querySelectorAll('.ROSTOVSKAY_OBLAST30')
+
 function SizeDisplay(listCity){
     console.log(listCity)
     container_info_gl.classList.add('open')
@@ -168,3 +192,141 @@ for(let i = 0; i < Vologodskay_oblast7.length; i++){
         getInfoCity('Vologodskay_oblast7')
     })
 }
+// Voronechskay_oblast8 _______________________________________________
+for(let i = 0; i < Voronechskay_oblast8.length; i++){
+    $(Voronechskay_oblast8[i]).click(function(){
+        getInfoCity('Voronechskay_oblast8')
+    })
+}
+// Ivanovskay_oblast9 _______________________________________________
+for(let i = 0; i < Ivanovskay_oblast9.length; i++){
+    $(Ivanovskay_oblast9[i]).click(function(){
+        getInfoCity('Ivanovskay_oblast9')
+    })
+}
+// Kaliningradskay_oblast10 _______________________________________________
+for(let i = 0; i < Kaliningradskay_oblast10.length; i++){
+    $(Kaliningradskay_oblast10[i]).click(function(){
+        getInfoCity('Kaliningradskay_oblast10')
+    })
+}
+// Kalurchskay11 _______________________________________________
+for(let i = 0; i < Kalurchskay11.length; i++){
+    $(Kalurchskay11[i]).click(function(){
+        getInfoCity('Kalurchskay11')
+    })
+}
+// Kemerovskay_oblast12 _______________________________________________
+for(let i = 0; i < Kemerovskay_oblast12.length; i++){
+    $(Kemerovskay_oblast12[i]).click(function(){
+        getInfoCity('Kemerovskay_oblast12')
+    })
+}
+// Kurganskay_oblast13 _______________________________________________
+for(let i = 0; i < Kurganskay_oblast13.length; i++){
+    $(Kurganskay_oblast13[i]).click(function(){
+        getInfoCity('Kurganskay_oblast13')
+    })
+}
+// kostromskay_oblast14 _______________________________________________
+for(let i = 0; i < kostromskay_oblast14.length; i++){
+    $(kostromskay_oblast14[i]).click(function(){
+        getInfoCity('kostromskay_oblast14')
+    })
+}
+// Kurganskay_oblast15 _______________________________________________
+for(let i = 0; i < Kurganskay_oblast15.length; i++){
+    $(Kurganskay_oblast15[i]).click(function(){
+        getInfoCity('Kurganskay_oblast15')
+    })
+}
+// Leningradskay_oblast17 _______________________________________________
+for(let i = 0; i < Leningradskay_oblast17.length; i++){
+    $(Leningradskay_oblast17[i]).click(function(){
+        getInfoCity('Leningradskay_oblast17')
+    })
+}
+// Lipezkay_oblast18 _______________________________________________
+for(let i = 0; i < Lipezkay_oblast18.length; i++){
+    $(Lipezkay_oblast18[i]).click(function(){
+        getInfoCity('Lipezkay_oblast18')
+    })
+}
+// Magadanskay_oblast19 _______________________________________________
+for(let i = 0; i < Magadanskay_oblast19.length; i++){
+    $(Magadanskay_oblast19[i]).click(function(){
+        getInfoCity('Magadanskay_oblast19')
+    })
+}
+// Moskovskay_oblast20 _______________________________________________
+for(let i = 0; i < Moskovskay_oblast20.length; i++){
+    $(Moskovskay_oblast20[i]).click(function(){
+        getInfoCity('Moskovskay_oblast20')
+    })
+}
+// Murmanskay_oblast21 _______________________________________________
+for(let i = 0; i < Murmanskay_oblast21.length; i++){
+    $(Murmanskay_oblast21[i]).click(function(){
+        getInfoCity('Murmanskay_oblast21')
+    })
+}
+// Nichegorodskay_oblast22 _______________________________________________
+for(let i = 0; i < Nichegorodskay_oblast22.length; i++){
+    $(Nichegorodskay_oblast22[i]).click(function(){
+        getInfoCity('Nichegorodskay_oblast22')
+    })
+}
+// Novgorodskay_oblast23 _______________________________________________
+for(let i = 0; i < Novgorodskay_oblast23.length; i++){
+    $(Novgorodskay_oblast23[i]).click(function(){
+        getInfoCity('Novgorodskay_oblast23')
+    })
+}
+// Omskay_oblast24 _______________________________________________
+for(let i = 0; i < Omskay_oblast24.length; i++){
+    $(Omskay_oblast24[i]).click(function(){
+        getInfoCity('Omskay_oblast24')
+    })
+}
+// Novosibirskay_oblast25 _______________________________________________
+for(let i = 0; i < Novosibirskay_oblast25.length; i++){
+    $(Novosibirskay_oblast25[i]).click(function(){
+        getInfoCity('Novosibirskay_oblast25')
+    })
+}
+// Orenburgskay_oblast26 _______________________________________________
+for(let i = 0; i < Orenburgskay_oblast26.length; i++){
+    $(Orenburgskay_oblast26[i]).click(function(){
+        getInfoCity('Orenburgskay_oblast26')
+    })
+}
+// Orlovskay_oblast27 _______________________________________________
+for(let i = 0; i < Orlovskay_oblast27.length; i++){
+    $(Orlovskay_oblast27[i]).click(function(){
+        getInfoCity('Orlovskay_oblast27')
+    })
+}
+// Penzenskay_oblast28 _______________________________________________
+for(let i = 0; i < Penzenskay_oblast28.length; i++){
+    $(Penzenskay_oblast28[i]).click(function(){
+        getInfoCity('Penzenskay_oblast28')
+    })
+}
+// Pskovskay_oblast29 _______________________________________________
+for(let i = 0; i < Pskovskay_oblast29.length; i++){
+    $(Pskovskay_oblast29[i]).click(function(){
+        getInfoCity('Pskovskay_oblast29')
+    })
+}
+// Rostovskay_oblast30 _______________________________________________
+for(let i = 0; i < Rostovskay_oblast30.length; i++){
+    $(Rostovskay_oblast30[i]).click(function(){
+        getInfoCity('Rostovskay_oblast30')
+    })
+}
+// // other _______________________________________________
+// for(let i = 0; i < other.length; i++){
+//     $(other[i]).click(function(){
+//         getInfoCity('other')
+//     })
+// }
