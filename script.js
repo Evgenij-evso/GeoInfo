@@ -49,6 +49,29 @@ let Penzenskay_oblast28 = document.querySelectorAll('.PENZENSKAY_OBLAST28')
 let Pskovskay_oblast29 = document.querySelectorAll('.PSKOVSKAY_OBLAST29')
 let Rostovskay_oblast30 = document.querySelectorAll('.ROSTOVSKAY_OBLAST30')
 
+let Ryzanskay_oblast31 = document.querySelectorAll('.RYZANSKAY_OBLAST31')
+let Samarskay_oblast32 = document.querySelectorAll('.SAMARSKAY_OBLAST32')
+let Saratovskay_oblast33 = document.querySelectorAll('.SARATOVSKAY_OBLAST33')
+let Sahalinskay_oblast34 = document.querySelectorAll('.SAHALINSKAY_OBLAST34')
+let Sverdlovskay_oblast35 = document.querySelectorAll('.SVERDLOVSKAY_OBLAST35')
+let Smolenskay_oblast36 = document.querySelectorAll('.SMOLENSKAY_OBLAST36')
+let Tambovskay_oblast37 = document.querySelectorAll('.TAMBOVSKAY_OBLAST37')
+let Tverskay_oblast38 = document.querySelectorAll('.TVERSKAY_OBLAST38')
+let Tulskay_oblast39 = document.querySelectorAll('.TULSKAY_OBLAST39')
+let Tymenskay_oblast40 = document.querySelectorAll('.TYMENSKAY_OBLAST40')
+let Ulaynovskay_oblast41 = document.querySelectorAll('.ULAYNOVSKAY_OBLAST41')
+let Chelybinskay_oblast42 = document.querySelectorAll('.CHELYBINSKAY_OBLAST42')
+let Yaroslavskay_oblast43 = document.querySelectorAll('.YAROSLAVSKAY_OBLAST43')
+let Adageya44 = document.querySelectorAll('.ADAGEYA44')
+let Bashkortostan45 = document.querySelectorAll('.BASHKORTOSTAN45')
+let Burytiay46 = document.querySelectorAll('.BURYTIAY46')
+let Dagestan47 = document.querySelectorAll('.DAGESTAN47')
+let Ingushetia48 = document.querySelectorAll('.INGUSHETIA48')
+let Kabardino49 = document.querySelectorAll('.KABARDINO49')
+let Kalmkiy50 = document.querySelectorAll('.KALMKIY50')
+// let other = document.querySelectorAll('other')
+
+
 function SizeDisplay(listCity){
     console.log(listCity)
     container_info_gl.classList.add('open')
@@ -324,9 +347,122 @@ for(let i = 0; i < Rostovskay_oblast30.length; i++){
         getInfoCity('Rostovskay_oblast30')
     })
 }
-// // other _______________________________________________
-// for(let i = 0; i < other.length; i++){
-//     $(other[i]).click(function(){
-//         getInfoCity('other')
-//     })
-// }
+// Ryzanskay_oblast31 _______________________________________________
+for(let i = 0; i < Ryzanskay_oblast31.length; i++){
+    $(Ryzanskay_oblast31[i]).click(function(){
+        getInfoCity('Ryzanskay_oblast31')
+    })
+}
+// Samarskay_oblast32 _______________________________________________
+for(let i = 0; i < Samarskay_oblast32.length; i++){
+    $(Samarskay_oblast32[i]).click(function(){
+        getInfoCity('Samarskay_oblast32')
+    })
+}
+// Saratovskay_oblast33 _______________________________________________
+for(let i = 0; i < Saratovskay_oblast33.length; i++){
+    $(Saratovskay_oblast33[i]).click(function(){
+        getInfoCity('Saratovskay_oblast33')
+    })
+}
+// Sahalinskay_oblast34 _______________________________________________
+for(let i = 0; i < Sahalinskay_oblast34.length; i++){
+    $(Sahalinskay_oblast34[i]).click(function(){
+        getInfoCity('Sahalinskay_oblast34')
+    })
+}
+// Sverdlovskay_oblast35 _______________________________________________
+for(let i = 0; i < Sverdlovskay_oblast35.length; i++){
+    $(Sverdlovskay_oblast35[i]).click(function(){
+        getInfoCity('Sverdlovskay_oblast35')
+    })
+}
+// Smolenskay_oblast36 _______________________________________________
+for(let i = 0; i < Smolenskay_oblast36.length; i++){
+    $(Smolenskay_oblast36[i]).click(function(){
+        getInfoCity('Smolenskay_oblast36')
+    })
+}
+// Tambovskay_oblast37 _______________________________________________
+for(let i = 0; i < Tambovskay_oblast37.length; i++){
+    $(Tambovskay_oblast37[i]).click(function(){
+        getInfoCity('Tambovskay_oblast37')
+    })
+}
+// Tverskay_oblast38 _______________________________________________
+for(let i = 0; i < Tverskay_oblast38.length; i++){
+    $(Tverskay_oblast38[i]).click(function(){
+        getInfoCity('Tverskay_oblast38')
+    })
+}
+// Tulskay_oblast39 _______________________________________________
+for(let i = 0; i < Tulskay_oblast39.length; i++){
+    $(Tulskay_oblast39[i]).click(function(){
+        getInfoCity('Tulskay_oblast39')
+    })
+}
+// Tymenskay_oblast40 _______________________________________________
+for(let i = 0; i < Tymenskay_oblast40.length; i++){
+    $(Tymenskay_oblast40[i]).click(function(){
+        getInfoCity('Tymenskay_oblast40')
+    })
+}
+// Ulaynovskay_oblast41 _______________________________________________
+for(let i = 0; i < Ulaynovskay_oblast41.length; i++){
+    $(Ulaynovskay_oblast41[i]).click(function(){
+        getInfoCity('Ulaynovskay_oblast41')
+    })
+}
+// Chelybinskay_oblast42 _______________________________________________
+for(let i = 0; i < Chelybinskay_oblast42.length; i++){
+    $(Chelybinskay_oblast42[i]).click(function(){
+        getInfoCity('Chelybinskay_oblast42')
+    })
+}
+// Yaroslavskay_oblast43 _______________________________________________
+for(let i = 0; i < Yaroslavskay_oblast43.length; i++){
+    $(Yaroslavskay_oblast43[i]).click(function(){
+        getInfoCity('Yaroslavskay_oblast43')
+    })
+}// Adageya44 _______________________________________________
+for(let i = 0; i < Adageya44.length; i++){
+    $(Adageya44[i]).click(function(){
+        getInfoCity('Adageya44')
+    })
+}
+// Bashkortostan45 _______________________________________________
+for(let i = 0; i < Bashkortostan45.length; i++){
+    $(Bashkortostan45[i]).click(function(){
+        getInfoCity('Bashkortostan45')
+    })
+}
+// Burytiay46 _______________________________________________
+for(let i = 0; i < Burytiay46.length; i++){
+    $(Burytiay46[i]).click(function(){
+        getInfoCity('Burytiay46')
+    })
+}
+// Dagestan47 _______________________________________________
+for(let i = 0; i < Dagestan47.length; i++){
+    $(Dagestan47[i]).click(function(){
+        getInfoCity('Dagestan47')
+    })
+}
+// Ingushetia48 _______________________________________________
+for(let i = 0; i < Ingushetia48.length; i++){
+    $(Ingushetia48[i]).click(function(){
+        getInfoCity('Ingushetia48')
+    })
+}
+// Kabardino49 _______________________________________________
+for(let i = 0; i < Kabardino49.length; i++){
+    $(Kabardino49[i]).click(function(){
+        getInfoCity('Kabardino49')
+    })
+}
+// Kalmkiy50 _______________________________________________
+for(let i = 0; i < Kalmkiy50.length; i++){
+    $(Kalmkiy50[i]).click(function(){
+        getInfoCity('Kalmkiy50')
+    })
+}
