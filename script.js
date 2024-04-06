@@ -485,3 +485,111 @@ for(let i = 0; i < Kalmkiy50.length; i++){
         getInfoCity('Kalmkiy50')
     })
 }
+// Karachaevo51 _______________________________________________
+for(let i = 0; i < Karachaevo51.length; i++){
+    $(Karachaevo51[i]).click(function(){
+        getInfoCity('Karachaevo51')
+    })
+}
+// Kaleriy52 _______________________________________________
+for(let i = 0; i < Kaleriy52.length; i++){
+    $(Kaleriy52[i]).click(function(){
+        getInfoCity('Kaleriy52')
+    })
+}
+// Krym53 _______________________________________________
+for(let i = 0; i < Krym53.length; i++){
+    $(Krym53[i]).click(function(){
+        getInfoCity('Krym53')
+    })
+}
+// mariiyal54 _______________________________________________
+for(let i = 0; i < mariiyal54.length; i++){
+    $(mariiyal54[i]).click(function(){
+        getInfoCity('mariiyal54')
+    })
+}
+// mordoviy55 _______________________________________________
+for(let i = 0; i < mordoviy55.length; i++){
+    $(mordoviy55[i]).click(function(){
+        getInfoCity('mordoviy55')
+    })
+}
+// Osetiay56 _______________________________________________
+for(let i = 0; i < Osetiay56.length; i++){
+    $(Osetiay56[i]).click(function(){
+        getInfoCity('Osetiay56')
+    })
+}
+// Udmurtskay58 _______________________________________________
+for(let i = 0; i < Udmurtskay58.length; i++){
+    $(Udmurtskay58[i]).click(function(){
+        getInfoCity('Udmurtskay58')
+    })
+}
+// Hakasiy59 _______________________________________________
+for(let i = 0; i < Hakasiy59.length; i++){
+    $(Hakasiy59[i]).click(function(){
+        getInfoCity('Hakasiy59')
+    })
+}
+// Chuvashskay60 _______________________________________________
+for(let i = 0; i < Chuvashskay60.length; i++){
+    $(Chuvashskay60[i]).click(function(){
+        getInfoCity('Chuvashskay60')
+    })
+}
+// Evreiskay_avtonomnay_oblast61 _______________________________________________
+for(let i = 0; i < Evreiskay_avtonomnay_oblast61.length; i++){
+    $(Evreiskay_avtonomnay_oblast61[i]).click(function(){
+        getInfoCity('Evreiskay_avtonomnay_oblast61')
+    })
+}
+// Nenezkii_ao62 _______________________________________________
+for(let i = 0; i < Nenezkii_ao62.length; i++){
+    $(Nenezkii_ao62[i]).click(function(){
+        getInfoCity('Nenezkii_ao62')
+    })
+}
+// Sevastopol63 _______________________________________________
+for(let i = 0; i < Sevastopol63.length; i++){
+    $(Sevastopol63[i]).click(function(){
+        getInfoCity('Sevastopol63')
+    })
+}
+// Kamchatskii_kray64 _______________________________________________
+for(let i = 0; i < Kamchatskii_kray64.length; i++){
+    $(Kamchatskii_kray64[i]).click(function(){
+        getInfoCity('Kamchatskii_kray64')
+    })
+}
+// Krasnodarskii65 _______________________________________________
+for(let i = 0; i < Krasnodarskii65.length; i++){
+    $(Krasnodarskii65[i]).click(function(){
+        getInfoCity('Krasnodarskii65')
+    })
+}
+// Permskii_kray66 _______________________________________________
+for(let i = 0; i < Permskii_kray66.length; i++){
+    $(Permskii_kray66[i]).click(function(){
+        getInfoCity('Permskii_kray66')
+    })
+}
+// Primorskii_kray67 _______________________________________________
+for(let i = 0; i < Primorskii_kray67.length; i++){
+    $(Primorskii_kray67[i]).click(function(){
+        getInfoCity('Primorskii_kray67')
+    })
+}
+// Stavropolskii68 _______________________________________________
+for(let i = 0; i < Stavropolskii68.length; i++){
+    $(Stavropolskii68[i]).click(function(){
+        getInfoCity('Stavropolskii68')
+    })
+}
+// Habarovskii_kray69 _______________________________________________
+for(let i = 0; i < Habarovskii_kray69.length; i++){
+    $(Habarovskii_kray69[i]).click(function(){
+        getInfoCity('Habarovskii_kray69')
+    })
+}
